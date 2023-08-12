@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { WeightConverterComponent } from './features/weight-converter/views/weight-converter/weight-converter.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WeightConverterComponent
   ],
   imports: [
     BrowserModule
